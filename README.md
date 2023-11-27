@@ -1,5 +1,5 @@
 # CSV Generator
-Easily make ake a CSV file easily by clicking and painting a grid!
+Easily make a CSV file easily by clicking and painting a grid!
 
 
 ## Setup
