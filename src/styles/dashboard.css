@@ -1,0 +1,127 @@
+.dashboard {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dashboardSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generateButton {
+    padding: 5px;
+    border: 3px solid black;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.dimension {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dimensionLabel label { font-size: 20px; }
+input { width: 50px; }
+
+
+
+
+
+.colorWrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.manageColors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.manageColorsButton {
+    padding: 5px;
+    border: 3px solid black;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+.disabledButton {
+    background-color: rgb(139, 139, 139);
+    cursor: not-allowed;
+}
+
+
+
+.colorList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colorItem {
+    padding: 5px;
+    border: 7px solid black;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.colorItem div {
+    height: 30px;
+    font-size: 25px;
+}
+.colorItem div:nth-child(2){ width: 75px; }
+
+.selectedColor { border: 7px solid gold; }
+
+
+
+.changeColor {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.changeColor input {
+    height: 50px;
+    cursor: pointer;
+}

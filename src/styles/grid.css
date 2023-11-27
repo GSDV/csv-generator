@@ -1,0 +1,23 @@
+.grid {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridItem {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
