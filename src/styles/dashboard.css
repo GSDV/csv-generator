@@ -1,5 +1,5 @@
 .dashboard {
-    padding: 50px;
+    padding: 50px 80px 0px 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,10 @@
 }
 
 .dashboardSection {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -32,7 +33,7 @@
 
 
 .dimension {
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -45,7 +46,7 @@ input { width: 50px; }
 
 
 .colorWrapper {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -111,7 +112,7 @@ input { width: 50px; }
 
 
 .changeColor {
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
