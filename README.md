@@ -13,7 +13,7 @@ to get the code.
 
 ## How to Use
 1. Pick your dimensions.
-2. Add as many "colors" (numbers) needed, and customize colors.
+2. Add as many "colors" (numbers) as needed, and customize colors.
 3. Paint squares (click or drag cursor while clicking).
 4. Download the CSV file, the whole number.
 
